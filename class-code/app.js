@@ -110,3 +110,24 @@ for( let anything of myStudents){
 }
 
 
+console.log(myStudents)
+
+
+myStudents[1] = 'Andulrahman'
+
+console.log(myStudents)
+
+// get the last element in the array
+console.log(myStudents[myStudents.length -1])
+
+console.log(myStudents.at(-1))
+
+
+
+
+// includes and indexOf
+
+console.log(myStudents.includes('Nawaf'))
+
+console.log(myStudents.indexOf("Nawaf"))
+
