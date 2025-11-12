@@ -131,3 +131,43 @@ console.log(myStudents.includes('Nawaf'))
 
 console.log(myStudents.indexOf("Nawaf"))
 
+
+
+/* 
+Methods that Mutate Array:
+
+pop
+push
+shift
+unshift
+splice
+
+
+DONT Mutate
+*/
+
+
+const firstTwoStudents = myStudents.slice(0,2)
+
+
+
+console.log(firstTwoStudents)
+
+
+for(let student of myStudents){
+  console.log(student)
+}
+
+// forEach()
+myStudents.forEach(
+  function(oneStudent){console.log(oneStudent)})
+
+myStudents.forEach(oneStudent => console.log(oneStudent))
+
+
+let myScentence = "Good Morning Class"
+
+console.log(myScentence.split('ing'))
+
+
+console.log(myStudents.join(' '))
